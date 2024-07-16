@@ -17,7 +17,7 @@ describe('GithubSDK', () => {
         expect(Array.isArray(repositories)).toBe(true);
     });
 
-    test('fetches repository currency-calculator', async () => {
+    test('fetches repository js-advanced-calculator', async () => {
         const gh = new GithubSDK();
 
         const repositoryNames = (await gh.getRepositories(user, token)).map(repository => repository.name ? true : false);
@@ -62,12 +62,12 @@ describe('GithubSDK', () => {
     test('fetches sending and deleting invitation for other user', async () => {
         const gh = new GithubSDK();
         
-        const invitationResult = await gh.sendInvitation('KatarzynaDworak', 'calculator', 'bogolubow', token); 
+        const invitationResult = await gh.sendInvitation('KatarzynaDworak', 'js-advanced-calculator', 'bogolubow', token); 
         
         console.log(invitationResult); 
         expect(invitationResult.success).toBe(true);
 
-        const deleteResult = await gh.deleteInvitation('KatarzynaDworak', 'calculator', 'bogolubow', token); 
+        const deleteResult = await gh.deleteInvitation('KatarzynaDworak', 'js-advanced-calculator', 'bogolubow', token); 
         
         console.log(deleteResult); 
         expect(deleteResult.success).toBe(true);
@@ -76,13 +76,13 @@ describe('GithubSDK', () => {
     test('fetches status of sending invitation for other user', async () => {
         const gh = new GithubSDK();
         
-        const statusResult = await gh.checkInvitationStatus('KatarzynaDworak', 'calculator', 'bogolubow', token); 
+        const statusResult = await gh.checkInvitationStatus('KatarzynaDworak', 'js-advanced-calculator', 'bogolubow', token); 
         
         console.log(statusResult); 
         expect(statusResult.status).toBe(201);
 
         //usuwamy zaproszenie
-        const deleteResult = await gh.deleteInvitation('KatarzynaDworak', 'calculator', 'bogolubow', token); 
+        const deleteResult = await gh.deleteInvitation('KatarzynaDworak', 'js-advanced-calculator', 'bogolubow', token); 
         
         console.log(deleteResult); 
         expect(deleteResult.success).toBe(true);
