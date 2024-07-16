@@ -89,6 +89,7 @@ describe('GithubSDK', () => {
         
     });
     
+    
     test('fetches status 404 of sending invitation for other user', async () => {
         const gh = new GithubSDK();
         
