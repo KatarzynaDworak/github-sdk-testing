@@ -148,7 +148,7 @@ The deleteInvitation method deletes an invitation for a user from a repository:
 <br />
 
 ## 🛠️ Languages and Tools used: 
-JavaScript, Node.js, API, Fetch, Git, GitHub, Terminal, Visual Studio Code, Npm
+JavaScript, Node.js, API, Fetch, Git, GitHub, Npm.
 
 <br />
 
