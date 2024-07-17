@@ -1,6 +1,9 @@
 # Thanks for viewing my Project ✨
 
-<Będzie tu nagranie projektu>
+
+
+https://github.com/user-attachments/assets/95b2462f-6e11-4d34-aab7-1c03f189da0a
+
 
 
 <br />
