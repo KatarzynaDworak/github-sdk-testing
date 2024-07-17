@@ -21,7 +21,6 @@ At the end you should write down in the terminal:
 to start tests.
 
 <br />
-<br />
 
 ## Main goal of my work was to:
 **1. Develop a JavaScript SDK to interact with the GitHub API:**
