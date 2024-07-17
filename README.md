@@ -6,7 +6,19 @@
 <br />
 
 ## :star: **Implementation:**
+The project uses Webpack and npm. To run the app on your machine you should install all dependencies. Then create a localhost port and run your web explorer.
 
+Let's start with installing all dependencies. Move to the app main workspace and run:
+
+        npm i
+        
+Create a new file named `secretToken` that contains the following token: `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`. This token will allow you to execute the functions and pass the tests successfully.
+        
+At the end you should write down in the terminal:
+
+        npm test
+        
+to start tests.
 
 <br />
 <br />
