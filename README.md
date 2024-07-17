@@ -1,10 +1,6 @@
 # Thanks for viewing my Project ✨
 
-
-
-https://github.com/user-attachments/assets/95b2462f-6e11-4d34-aab7-1c03f189da0a
-
-
+https://github.com/user-attachments/assets/ba908f8a-88fe-44bf-aa53-675251a115b6
 
 <br />
 
