@@ -12,7 +12,9 @@ Let's start with installing all dependencies. Move to the app main workspace and
 
         npm i
         
-Create a new file named `secretToken` that contains the following token: `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`. This token will allow you to execute the functions and pass the tests successfully.
+Create a new file named `secretToken` that contains the following token: `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`. 
+
+This token will allow you to execute the functions and pass the tests successfully.
         
 At the end you should write down in the terminal:
 
